@@ -10,8 +10,8 @@ add_executable(HW2_P1 Homework_2/problem_1.cpp)
 add_executable(HW2_P2 Homework_2/problem_2.cpp)
 
 add_executable(HW3_P1 Homework_3/problem_1.cpp)
-#add_executable(HW3_P2 Homework_3/problem_2.cpp)
-#
+add_executable(HW3_P2 Homework_3/problem_2.cpp)
+
 #add_executable(HW4_P1 Homework_4/problem_1.cpp)
 #add_executable(HW4_P2 Homework_4/problem_2.cpp)
 #

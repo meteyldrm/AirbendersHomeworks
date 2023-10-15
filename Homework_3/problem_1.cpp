@@ -1,7 +1,5 @@
 #include <iostream>
 #include <string>
-#include <format>
-#include <cmath>
 #include <vector>
 using namespace std;
 
