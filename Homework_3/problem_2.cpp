@@ -73,6 +73,7 @@ bool check_matrix_full(vector<vector<int>>* var){
             return true;
         }
     }
+    print(format("Vector has {} columns, last column has {} rows", var->size(), var->back().size()));
     return false;
 }
 
@@ -80,7 +81,8 @@ void matrix_homework(){
     while (true){
         //The console output doesn't match the strings here because of the use of MinGW. Non-issue.
         print("");
-        input(&row_count, &column_count, "Type the number of rows, and the number of columns separated by \" \":");
+        input(&row_count, "Type the number of rows:");
+        input(&column_count, "Type the number of columns:");
         print("Entering values for the first matrix");
         while (!check_matrix_full(&matrix1)){
             //FIXME: Why are i and j not changing?
